@@ -1,0 +1,59 @@
+@import '../theme/tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: var(--go2x-font-body);
+    color: var(--go2x-text);
+    background-color: var(--go2x-bg);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--go2x-bg);
+    color: var(--go2x-text);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Thin, delicate border defaults */
+  *, ::before, ::after {
+    border-color: var(--go2x-border);
+  }
+
+  /* All numbers use tabular figures */
+  .tabular-nums,
+  [data-tabular-nums] {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Fixed bar height offset for scroll anchors */
+  [id] {
+    scroll-margin-top: 64px;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--go2x-border);
+  border-radius: var(--go2x-radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--go2x-text-muted);
+}

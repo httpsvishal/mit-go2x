@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-25",
+  "settings": {
+    "thresholds": {
+      "atRisk": 75,
+      "critical": 50
+    },
+    "minSampleSize": 5,
+    "streakAlert": 3,
+    "lowTurnoutBelowPct": 50,
+    "maskNamesDefault": false,
+    "productName": "Go2X Attendance"
+  },
+  "programs": [
+    {
+      "id": "coe",
+      "label": "COE",
+      "type": "class-level",
+      "icon": "graduation-cap",
+      "description": "Class-period attendance for COE batches",
+      "defaultBatch": "coe-2y",
+      "batches": [
+        {
+          "id": "coe-2y",
+          "label": "COE 2nd Year",
+          "status": "active",
+          "order": 1,
+          "files": {
+            "classes": "coe/coe-2y/class_level.json"
+          }
+        },
+        {
+          "id": "coe-3y",
+          "label": "COE 3rd Year",
+          "status": "active",
+          "order": 2,
+          "files": {
+            "classes": "coe/coe-3y/class_level.json"
+          }
+        }
+      ]
+    },
+    {
+      "id": "super30",
+      "label": "Super 30",
+      "type": "student-matrix",
+      "icon": "rocket",
+      "description": "Student-level attendance for Super 30 batches",
+      "defaultBatch": "s30-4y",
+      "batches": [
+        {
+          "id": "s30-2y",
+          "label": "Super 30 - 2nd Year",
+          "status": "active",
+          "order": 1,
+          "files": {
+            "matrix": "super30/student_session_long.json"
+          },
+          "where": {
+            "year": "2nd Year"
+          }
+        },
+        {
+          "id": "s30-3y",
+          "label": "Super 30 - 3rd Year",
+          "status": "active",
+          "order": 2,
+          "files": {
+            "matrix": "super30/student_session_long.json"
+          },
+          "where": {
+            "year": "3rd Year"
+          }
+        },
+        {
+          "id": "s30-4y",
+          "label": "Super 30 - 4th Year",
+          "status": "active",
+          "order": 3,
+          "files": {
+            "matrix": "super30/student_session_long.json"
+          },
+          "where": {
+            "year": "4th Year"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+:root {
+  --go2x-bg: #ffffff;
+  --go2x-surface: #fafafa;
+  --go2x-surface-alt: #f2f2f2;
+  --go2x-border: rgba(0, 0, 0, 0.08);
+  --go2x-border-subtle: rgba(0, 0, 0, 0.04);
+  --go2x-text: #000000;
+  --go2x-text-muted: #525252;
+  --go2x-accent: #ff6f00;
+  --go2x-accent-contrast: #ffffff;
+  --go2x-accent-soft: rgba(255, 111, 0, 0.08);
+  --go2x-focus-ring: #ff6f00;
+
+  --go2x-status-ok: #16a34a;
+  --go2x-status-ok-text: #15803d;
+  --go2x-status-ok-soft: #dcfce7;
+  --go2x-status-warn: #ff6f00;
+  --go2x-status-warn-text: #b45309;
+  --go2x-status-warn-soft: #fff7ed;
+  --go2x-status-bad: #dc2626;
+  --go2x-status-bad-text: #b91c1c;
+  --go2x-status-bad-soft: #fee2e2;
+  --go2x-status-neutral: #64748b;
+  --go2x-status-neutral-text: #475569;
+  --go2x-status-neutral-soft: #f1f5f9;
+
+  --go2x-font-heading: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --go2x-font-body: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --go2x-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Modern rounded borders */
+  --go2x-radius-sm: 0.375rem;
+  --go2x-radius-md: 0.625rem;
+  --go2x-radius-lg: 0.875rem;
+  --go2x-radius-xl: 1.125rem;
+  --go2x-radius-2xl: 1.5rem;
+  --go2x-radius-full: 9999px;
+
+  /* Soft, delicate shadows */
+  --go2x-shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.03);
+  --go2x-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.04), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+
+  --go2x-motion-fast: 150ms;
+  --go2x-motion-base: 250ms;
+}
+
+.dark {
+  --go2x-bg: #000000;
+  --go2x-surface: #0d0d0d;
+  --go2x-surface-alt: #1a1a1a;
+  --go2x-border: rgba(255, 255, 255, 0.08);
+  --go2x-border-subtle: rgba(255, 255, 255, 0.04);
+  --go2x-text: #ffffff;
+  --go2x-text-muted: #a3a3a3;
+  --go2x-accent: #ff6f00;
+  --go2x-accent-contrast: #ffffff;
+  --go2x-accent-soft: rgba(255, 111, 0, 0.18);
+  --go2x-focus-ring: #ff6f00;
+
+  --go2x-status-ok: #22c55e;
+  --go2x-status-ok-text: #86efac;
+  --go2x-status-ok-soft: rgba(34, 197, 94, 0.2);
+  --go2x-status-warn: #ff6f00;
+  --go2x-status-warn-text: #fdba74;
+  --go2x-status-warn-soft: rgba(255, 111, 0, 0.2);
+  --go2x-status-bad: #ef4444;
+  --go2x-status-bad-text: #fca5a5;
+  --go2x-status-bad-soft: rgba(239, 68, 68, 0.2);
+  --go2x-status-neutral: #94a3b8;
+  --go2x-status-neutral-text: #cbd5e1;
+  --go2x-status-neutral-soft: rgba(148, 163, 184, 0.2);
+}

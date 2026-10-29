@@ -1,0 +1,46 @@
+{
+  "pages": {
+    "overview": {
+      "class-level": {
+        "kpis": [
+          "overallPct",
+          "classesBelow50",
+          "periodGap",
+          "completeness",
+          "pendingEntries"
+        ],
+        "charts": [
+          "sectionLeague",
+          "trendLine",
+          "periodProfile"
+        ]
+      },
+      "student-matrix": {
+        "kpis": [
+          "overallPct",
+          "studentsBelowTarget",
+          "criticalStudents",
+          "absenceConcentration",
+          "activeStreaks"
+        ],
+        "charts": [
+          "sectionLeague",
+          "trendLine",
+          "studentHistogram"
+        ]
+      },
+      "compare": {
+        "kpis": [
+          "overallPct",
+          "batchesCount",
+          "studentsOrClassesTracked",
+          "dataHealthScore"
+        ],
+        "charts": [
+          "batchLeaderboard",
+          "trendLineByBatch"
+        ]
+      }
+    }
+  }
+}
